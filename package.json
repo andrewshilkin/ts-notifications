@@ -1,0 +1,22 @@
+{
+  "name": "andshil-ts-notifications",
+  "version": "0.1.0",
+  "description": "Typescript realization concept of events",
+  "main": "./index.ts",
+  "scripts": {
+    "test": "ts-node .\\test\\index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "events"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewshilkin/ts-notifications.git"
+  },
+  "author": "Andrew Shilkin",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}

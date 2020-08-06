@@ -1,9 +1,7 @@
-# ts-notifications
-Typescript realization concept of events
+import { Notify } from "../index"
+import { IRecipient } from "../notifications";
 
-sample: 
-```typescript
-class NotificationMap extends Notify.NotificationMap { // concreat NotificationMap class
+class NotificationMap extends Notify.NotificationMap {
 
 }
 
@@ -33,4 +31,3 @@ const recipient: IRecipient = new Recipient(notificationMap); // create recipien
 notificationMap.register(recipient); // register recipient
 recipient.sendNotification("TEST_EVENT"); // send notification to map, that we will get as interest event at recipients
 recipient.sendNotification("NOT_INTEREST_EVENT"); // send event with not listen for test
-```
