@@ -1,4 +1,4 @@
-import { Notify } from "../index"
+import * as Notify from "../index"
 import { IRecipient } from "../notifications";
 
 class NotificationMap extends Notify.NotificationMap {

@@ -1,1 +1,1 @@
-export * as Notify from "./notifications"
+export * from "./notifications"

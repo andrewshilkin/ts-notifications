@@ -1,4 +1,4 @@
-# ts-notifications
+# andshil-ts-notifications
 Typescript realization concept of events
 
 sample: 

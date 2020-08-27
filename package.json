@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "Typescript realization concept of events",
   "main": "./index.ts",
+  "types": "./index.d.ts",
+  "prepublish": "tsc",
   "scripts": {
+    "build": "tsc",
     "test": "ts-node .\\test\\index.ts"
   },
   "keywords": [
