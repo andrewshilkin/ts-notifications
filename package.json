@@ -1,6 +1,6 @@
 {
   "name": "andshil-ts-notifications",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Typescript realization concept of events",
   "main": "./index.ts",
   "types": "./index.d.ts",
