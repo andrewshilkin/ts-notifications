@@ -1,16 +1,16 @@
 {
     "compilerOptions": {
         "outDir": "dist",
-        "target": "es2015",
+        "target": "es5",
         "module": "commonjs",
-        "moduleResolution": "node",
         "sourceMap": false,
-        "declaration": false,
+        "declaration": true,
         "removeComments": true,
-        "strict": false,
+        "strict": true,
         "experimentalDecorators": true
     },
+    "include": ["notifications"],
     "exclude": [
-        "node_modules"
+        "node_modules", "test"
     ]
 }
